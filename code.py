@@ -5,8 +5,7 @@ from tkinter import *
 root = Tk() 
 root.title("CRYPTOGRAPHY") 
 root.geometry("500x300") 
-C = root.canvas(top, bg="blue", height=250, width=300) 
-C.pack()
+
 def encryptMessage():                       
     pt = e1.get() 
   
